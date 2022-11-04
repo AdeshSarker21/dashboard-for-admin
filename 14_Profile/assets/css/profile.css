@@ -1,0 +1,216 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*======================Start Account Area======================*/
+.main_body {}
+
+/*======================Start User Profile Area======================*/
+.mainUserProfileArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.userProfileImageArea {
+    flex-basis: 25%;
+    position: relative;
+}
+
+.userProfileImageArea .userMainProfileImage {}
+
+.userProfileImageArea .profileImageUploadButton {
+    border: none;
+    background: none;
+}
+
+.userProfileImageArea .profileImageUploadButton .profileImageUploadIcon {
+    position: absolute;
+    bottom: -5%;
+    right: -3%;
+}
+
+.userProfileDetailsArea {
+    flex-basis: 75%;
+    margin-left: 30px;
+}
+
+.userNameWithApproveArea {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.userNameArea {}
+
+.userNameArea .userNameText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.approveArea {
+    margin-left: 28px;
+}
+
+.approveArea .approveText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    color: #00BC39;
+}
+
+.approveArea .approveText .circle {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: #00BC39;
+    border-radius: 50%;
+}
+
+.userOtherDetailsArea {}
+
+.userOtherDetailsArea .userEmailText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #797979;
+}
+
+.userOtherDetailsArea .sinceMemberText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #797979;
+    padding: 5px 0px 9px;
+}
+
+.userOtherDetailsArea .sinceMemberTex .mounthText {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    color: #404040;
+}
+
+.userOtherDetailsArea .changePassword {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #007BFF;
+}
+
+/*======================End User Profile Area======================*/
+/*======================Start User All Information Area======================*/
+.userAllInoformationArea {
+    margin-top: 77px;
+}
+
+.userAllInformationForm {}
+
+.flexBoxThree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.userInfoformGroup {
+    flex-basis: 48%;
+}
+
+.userInfoformGroup .userInfoformGroupLabel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: #444444;
+    margin-bottom: 8px;
+}
+
+.userInfoformGroup .userInfoInput {
+    border: none;
+    background: none;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 17px 16px;
+}
+.doneButtonArea{
+    text-align: center;
+    margin-top: 49px;
+}
+.doneButtonArea .doneButton{
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+    background: #49C0FF;
+border-radius: 6px;
+    padding: 14px;
+    width: 100%;
+  
+}
+/*======================End User All Information Area======================*/

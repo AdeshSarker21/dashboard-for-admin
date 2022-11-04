@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .main_body {
+        margin-right: 60px;
+    }
+    .floorMpaItem .numberText {
+
+	font-size: 16px;
+
+}
+    .floorMpaItem .openText {
+	
+	font-size: 16px;
+	
+}
+    .main_body {
+	margin-top: 50px;
+}
+}
+
+@media all and (max-width:991px) {
+        .main_body {
+	margin-top: 50px;
+            margin-right: 0;
+            margin-left: 0;
+}
+.mainFloorUPArea {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+    .floorMpaItem {
+	flex-basis: 31.5%;
+	padding: 22px 0px;
+	text-align: center;
+        margin-bottom: 25px;
+}
+    .floorMapDetailsArea {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+    .floorMapLeftSide {
+    flex-basis: 100%;
+}
+.floorMapRightSide{
+    flex-basis: 100%;
+    padding-left: 0px;
+    padding-top: 25px;
+}
+}
+
+@media all and (max-width:767px) {
+        .floorMpaItem {
+	flex-basis: 48.5%;
+	padding: 22px 0px;
+	text-align: center;
+        margin-bottom: 25px;
+}
+    .floorMapUl .floorMapList .floorMapLink {
+
+	font-size: 20px;
+	line-height: 18px;
+	text-align: center;
+	color: #444444;
+	padding: 15px 0px 15px;
+}
+    .liveArea .availableButton {
+	
+	font-size: 20px;
+	line-height: 36px;
+	
+}
+    .floorMapRightSide{
+    flex-basis: 100%;
+   padding-left: 25px;
+        padding-right: 25px;
+}
+}
+
+@media all and (max-width:577px) {
+        .floorMpaItem {
+	flex-basis: 100%;
+	padding: 22px 0px;
+	text-align: center;
+        margin-bottom: 25px;
+}
+}
+
+@media all and (max-width:480px) {
+    .liveArea {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0px 22px;
+	flex-direction: column;
+}
+    .addressUl .addressList {
+
+	font-size: 16px;
+
+}
+    .addressUl .addressList .addressLink {
+	
+	font-size: 16px;
+	
+}
+    .reviewArea {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 30px;
+	flex-direction: column;
+}
+    .reviewCount {
+
+	padding: 25px 0px;
+}
+    .liveArea .availableButton {
+	font-size: 17px;
+	line-height: 36px;
+}
+}
+
+@media all and (max-width:400px) {}
+
+@media all and (max-width:375px) {}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) {}
+
+@media only screen and (max-width: 360px) and (min-width: 360px) {}
+
+@media all and (max-width:359px) {}
+
+@media all and (max-width:350px) {}

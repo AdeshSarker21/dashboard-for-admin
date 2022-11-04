@@ -1,0 +1,170 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .main_body {
+        margin-right: 60px;
+    }
+
+    .addGaragePriceArea {
+        left: 25%;
+        padding: 61px 50px;
+        width: 60%;
+    }
+}
+
+@media all and (max-width:1300px) {
+    label #bars {
+        left: 20px;
+        z-index: 9999999999999999999;
+        top: 10px;
+    }
+
+    label #close {
+        top: 10px;
+        left: 20px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .table .dataTableHead .dataTableHeadRow .dataTableHeadCol {
+        font-size: 16px;
+    }
+
+    .table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+        font-size: 15px;
+    }
+
+    .table .dataTableBody .dataTableBodyRow .flexBoxFive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        flex-direction: column;
+    }
+
+    .table {
+        width: 700px !important;
+        margin-bottom: 1rem;
+        color: #212529;
+        vertical-align: top;
+    }
+
+    .maniDataTableArea {
+        margin: 0px 30px;
+        background: #fff;
+        padding: 42px 15px;
+    }
+
+    .addGaragePriceArea {
+        top: 25%;
+        left: 3%;
+        width: 95%;
+    }
+
+    .addGaragePriceArea {
+        left: 2%;
+        padding: 61px 50px;
+        width: 95%;
+    }
+
+    .flexBox {
+        display: unset;
+        justify-content: unset;
+        align-items: unset;
+    }
+}
+
+@media all and (max-width:767px) {
+    .flexBox {
+        display: unset;
+        justify-content: unset;
+        align-items: unset;
+    }
+
+    .addGaragePriceArea {
+        padding: 35px 15px;
+        width: 95%;
+        margin: 0 auto;
+        background: #fff;
+        z-index: 999999;
+        padding-bottom: 120px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .table {
+        width: 772px !important;
+        margin-bottom: 1rem;
+        color: #212529;
+        vertical-align: top;
+    }
+
+    .searchKeywordForm .searchKeyword .searchKeywordInput {
+        width: 100%;
+    }
+
+    .flexBoxSix {
+        display: flex;
+        justify-content: unset;
+        align-items: unset;
+        flex-direction: column;
+    }
+
+    .addManagerArea {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .addManagerArea .addManagerAreaButton {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:480px) {
+    .topHeader .topHeaderList {
+        margin-left: 14px;
+    }
+
+    label #bars {
+        top: 9px;
+    }
+
+    label #close {
+        top: 9px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .topHeader .topHeaderList .userButton .userName {
+        display: none;
+    }
+
+    .topHeader .topHeaderList {
+        margin-left: 8px;
+    }
+
+    .toplogo .responsiveLogo {
+        display: block !important;
+        height: 38px;
+        width: 38px;
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+
+    .topHeader .topHeaderList .userButton {
+        margin-left: 0px;
+    }
+
+    .topHeader .topHeaderList .userButton .topHeaderUser {
+        margin-right: 4px;
+    }
+}
+
+@media all and (max-width:375px) {}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) {}
+
+@media only screen and (max-width: 360px) and (min-width: 360px) {}
+
+@media all and (max-width:359px) {}
+
+@media all and (max-width:350px) {}

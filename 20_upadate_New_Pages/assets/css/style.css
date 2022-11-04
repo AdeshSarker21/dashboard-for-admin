@@ -1,0 +1,527 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*======================Start Main Body Heading Part======================*/
+.mainBodyHeadingPart {
+    margin-top: 80px;
+    padding: 0px 67px;
+}
+
+.mainBodyHeadingPart .mainBodyHeadingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #444444;
+}
+
+.mainBodyHeadingPart .mainBodyHeadingContain {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    margin-bottom: 30px;
+}
+
+/*======================End Main Body Heading Part======================*/
+/*----------------------------------------------------------Page One CSS----------------------------------------------------------*/
+.garageAdminDetailsArea {
+    background: url(../images/bg.png)no-repeat scroll 0 0 / 100% 100%;
+    margin: 41px 64px;
+}
+
+.totalGarage {
+    text-align: center;
+    padding: 270px 0px;
+}
+
+.totalGarage .totalGarageText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.totalGarage .viewAllGaragesButton {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #49C0FF;
+    border-radius: 6px;
+    padding: 15px 46px;
+}
+
+/*---------------------------------------------------------- End Page One CSS----------------------------------------------------------*/
+/*---------------------------------------------------------- Page One CSS----------------------------------------------------------*/
+.wapperOne {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 60px 33px 25px;
+    margin: 56px 64px;
+}
+
+.allGarageArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.garageItem {
+    flex-basis: 47%;
+    margin-bottom: 21px;
+}
+
+.garageItem .garageImage {
+    width: 100%;
+}
+
+.garageDetails {
+    background: #49C0FF;
+    border-radius: 0px 0px 5px 5px;
+    padding: 11px 23px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -40px;
+    position: relative;
+}
+
+.garageName {}
+
+.garageName .mainName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.garageEditButton {}
+
+.garageEditButton .editButton {
+    border: none;
+    background: none;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.garageEditButton .editButton .editIcon {
+    margin-right: 5px;
+}
+
+.garageEditButton .editButton .editText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 9px;
+    color: #49C0FF;
+}
+
+/*---------------------------------------------------------- End Page Two CSS----------------------------------------------------------*/
+/*---------------------------------------------------------- End Page Garage edit update CSS----------------------------------------------------------*/
+.customWidth {
+    flex-basis: 100%;
+}
+
+.nameInput {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+    padding: 3px 11px;
+    color: #444444;
+    border: none;
+    background: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    width: 140px;
+}
+
+.updateGarageName {}
+
+.updateGarageName .mainName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.uploadLocation {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.uploadLocation .locationButton {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #49C0FF;
+    border-radius: 6px;
+    padding: 20px 0px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.uploadLocation .pickMapButton {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #FD2C49;
+    border-radius: 6px;
+    padding: 20px 0px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mapShowArea {
+    margin-top: 170px;
+}
+
+.mapShowArea .selectMap {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+    color: #1C232E;
+    margin-bottom: 20px;
+}
+
+.mapShowArea .nullDetails {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+    color: #1C232E;
+    margin-bottom: 40px
+}
+
+.mapShowArea .currentLocation {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+    color: #1C232E;
+    margin-bottom: 20px;
+}
+
+.mapShowArea .currentAddress {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+    color: #1C232E;
+}
+
+/*-------------------------------------------- End Page Garage edit update CSS----------------------------------------------------------*/
+/*-------------------------------------------- Map CSS----------------------------------------------------------*/
+.mapArea {
+    position: relative;
+}
+
+.mapArea .map iframe {
+    width: 100%;
+    height: 740px;
+    border-radius: 8px;
+}
+
+.customPossiton {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+}
+
+.searchForm {
+    text-align: center;
+    position: relative;
+}
+
+.searchForm .inputSearch {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #101010;
+    opacity: 0.96;
+    padding: 20px 51px;
+    border: none;
+    background: none;
+    width: 90%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.searchForm .searchIcon {
+    position: absolute;
+    top: 32%;
+    left: 7%;
+    cursor: pointer;
+}
+
+.confirmArea {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.showLocationDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 46px 0px 58px;
+}
+
+.showLocationDetails .showLocationDetailsIcon {
+    margin-right: 10px;
+}
+
+.showLocationDetails .showLocationDetailsText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 26px;
+    color: #1C232E;
+}
+
+.confirmButtonArea {}
+
+.confirmButtonArea .confirmButton {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    border: none;
+    color: #FFFFFF;
+    background: #49C0FF;
+    border-radius: 6px;
+    padding: 16px;
+    width: 100%;
+}
+
+/*-------------------------------------------- End Map CSS----------------------------------------------------------*/
+.saveAlartForm {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.14);
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding-bottom: 50px;
+    z-index: 99999999999;
+}
+
+.questionIconArea {
+    text-align: center;
+}
+
+.questionIcon {}
+
+.notic {
+    padding: 39px 0px 48px;
+}
+
+.notic .noticeText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.saveButtonArea {
+    display: flex;
+    justify-content: center;
+}
+
+.saveButtonArea .customBtn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #555555;
+    border: none;
+    background: none;
+    border: 1px solid #49C0FF;
+    border-radius: 6px;
+    padding: 12px 100px;
+    margin: 0px 10px;
+}
+
+.saveButtonArea .customBtn:hover {
+    color: #FFFFFF;
+    background: #49C0FF;
+    border-radius: 6px;
+}
+
+.paginationBare {
+    text-align: right;
+    padding-bottom: 60px;
+}
+
+.paginationBarUl {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.paginationBarUl .paginatonBarList {
+    margin-right: 20px;
+}
+
+.paginationBarUl .paginatonBarList .paginatonBarLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #797979;
+    padding: 6px 13px;
+}
+
+.pActive {
+    background: #49C0FF;
+    border-radius: 2px;
+    padding: 9px 10px;
+    color: #fff !important;
+}
+
+.flexBoxTen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.next {}
+
+.rightArrow {}
+
+.userRoles {}
+
+.userRoles .clientSearchFormLabel {}
+
+.userRoles .clientSearchFormInput {
+    width: 70%;
+}
+
+.userRoles .clientSearchFormSearchIcon {
+    left: 24%;
+}
+
+@media all and (max-width:991px) {
+    .paginationBarUl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    .maniDataTableArea {
+        padding: 0px 10px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .paginationBarUl .paginatonBarList {
+        margin-right: 0px;
+    }
+
+    .paginationBarUl .paginatonBarList .paginatonBarLink {
+        padding: 0px 6px;
+    }
+}

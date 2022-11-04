@@ -1,0 +1,162 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*======================Start Account Area======================*/
+.mainBodyArea {
+    margin-top: 100px;
+}
+
+.customBg {
+    background: #fff;
+    padding: 21px 68px;
+}
+.clientDetailsBackArea{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.clientBackLink{
+    display: inline-block;
+}
+.clientBackLink .leftArrwoBack{
+    display: inline-block;
+    margin-right: 23px;
+}
+.clientDetailsHeadingText{
+    display: inline-block;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #404040;
+
+}
+/*======================Start User Profile Area======================*/
+.mainUserProfileArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.userNameArea .userNameText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #404040;
+    margin-left: 30px;
+}
+
+.userOtherDetailsArea {
+    margin-left: 30px;
+}
+
+.userOtherDetailsArea .userEmailText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #404040;
+    padding-bottom: 3px;
+}
+
+.userOtherDetailsArea .contactText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #404040;
+    padding-bottom: 3px;
+}
+
+/*======================End User Profile Area======================*/
+/*======================Start User All Information Area======================*/
+.userAllInoformationArea {
+    margin-top: 77px;
+}
+
+.userAllInformationForm {}
+
+.flexBoxThree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.userInfoformGroup {
+    flex-basis: 48%;
+}
+
+.userInfoformGroup .userInfoformGroupLabel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+    margin-bottom: 8px;
+}
+
+.userInfoformGroup .userInfoInput {
+    border: none;
+    background: none;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 17px 16px;
+    background: #FFFFFF;
+    border: 0.2px solid #797979;
+    border-radius: 8px;
+}
+
+/*======================End User All Information Area======================*/

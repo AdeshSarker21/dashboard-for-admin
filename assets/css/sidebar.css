@@ -1,0 +1,345 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* scrollbar edit for sidebar start */
+/* width */
+.sidebar::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* scrollbar edit for sidebar end  */
+
+/*=============================Sidebar Start=============================*/
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  width: 300px;
+  transition-duration: 0.5s;
+  z-index: 43;
+  left: 0px;
+  top: 0px;
+  font-weight: bold;
+  bottom: 0;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border-right: 1px solid rgb(233, 227, 227);
+}
+
+.sidebar:hover {
+  overflow-y: auto;
+}
+
+.sidebarLogoArea {
+  z-index: 5;
+  margin-left: -10px !important;
+}
+
+.sidebarLogoArea {
+  position: fixed;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.sidebarLogoArea img {
+  width: 170px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#check {
+  display: none;
+}
+
+#bars {
+  display: none;
+}
+
+label #bars,
+label #close {
+  position: absolute;
+  padding: 15px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: #49c0ff !important;
+}
+
+label #bars {
+  left: 170px;
+  top: 10px;
+  position: absolute;
+  background: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 26px;
+  z-index: 98;
+  padding: 10px;
+  z-index: 44;
+}
+
+label #close {
+  top: 18px;
+  z-index: 10;
+  opacity: 0;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  /* left:190px; */
+  left: 10px;
+  font-size: 22px;
+}
+
+#check:checked ~ .sidebar {
+  left: -240px;
+}
+
+#check:checked ~ label #bars {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.menu_bar:focus .main_body {
+  margin-left: -240px !important;
+}
+
+#check:checked ~ label #close {
+  position: fixed;
+  z-index: 105000;
+  opacity: 1;
+}
+
+.collapse-item-sidebar li {
+  margin-left: -18px;
+}
+
+.sidebarLogoArea {
+  margin: 54px 0px 43px;
+  position: fixed;
+  background: white;
+  width: 299px;
+  margin-top: 0px;
+}
+
+.userImageArea {
+  text-align: center;
+}
+
+.userImageArea .userImage {
+  text-align: center;
+  height: 105px;
+  width: 105px;
+  border-radius: 50%;
+}
+
+.userName {
+  text-align: center;
+}
+
+.sidebar_ul {
+  margin-top: 180px !important;
+  padding: 18px;
+  padding-left: 0;
+  padding-right: 0px !important;
+}
+
+/* .listItem {
+}
+
+.searchForm {
+} */
+
+.formGropu {
+  position: relative;
+}
+
+.listItem {
+  margin-top: 7px;
+}
+
+.listItem .navLink {
+  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 16px;
+}
+
+/* .listItem .navLink .navIcon {
+} */
+
+.listItem .navLink .navName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-left: 10px;
+  padding: 10px 0px;
+  padding-left: 20px;
+}
+
+.hoverIcon {
+  display: none;
+}
+
+.sidebar_ul .listItem .navLink:hover {
+  background: #49c0ff;
+  color: #fff;
+}
+
+.sidebar_ul .listItem .navLink:hover .navName {
+  color: #fff;
+}
+
+.sidebar_ul .listItem .navLink:hover .mainIcon {
+  display: none;
+}
+
+.sidebar_ul .listItem .navLink:hover .hoverIcon {
+  display: block;
+}
+
+.activeNav {
+  background: #49c0ff;
+  color: #fff;
+}
+
+.activeNav .mainIcon {
+  display: none;
+}
+
+.activeNav .hoverIcon {
+  display: block;
+}
+
+.activeNav .navName {
+  color: #fff !important;
+}
+
+/* .userName {
+} */
+
+.userName .userFullName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.userName .userEmail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #797979;
+}
+
+.sidebar_ul {
+  margin-top: 0px;
+  padding: 18px;
+  padding-left: 0;
+}
+
+/*=============================Sidebar End=============================*/
+/*==========================Side Bar Responsive==================================*/
+@media screen and (max-width: 1300px) {
+  #bars {
+    display: block;
+    position: fixed !important;
+  }
+
+  .sidebar {
+    left: -312px;
+  }
+
+  label #bars {
+    left: 20px;
+  }
+
+  #check:checked ~ .sidebar {
+    left: 0px;
+  }
+
+  .topBarHeader {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .msg_noti_user {
+    display: none;
+  }
+
+  .sidebar {
+    overflow: auto;
+  }
+
+  .sidebar:hover {
+    overflow-y: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  label #close {
+    left: 10px !important;
+  }
+
+  label #bars {
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  label #bars {
+    left: 10px;
+    font-size: 16px;
+    top: 10px;
+  }
+  .headerItem {
+    gap: 20px !important;
+  }
+  .headerIcons {
+    gap: 15px !important;
+  }
+}
+
+.main_body {
+  margin-top: -25px;
+  margin-left: 300px;
+}
+
+@media screen and (max-width: 1300px) {
+  .main_body {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  label #bars {
+    top: 20px;
+  }
+}

@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+}
+
+@media all and (max-width:991px) {
+    .flexBoxThree {
+	display: unset;
+	margin-bottom: 0px;
+}
+    .userInfoformGroup .userInfoInput {
+	
+	margin-bottom: 30px;
+}
+}
+
+@media all and (max-width:767px) {
+.mainUserProfileArea {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+    .userNameArea .userNameText {
+
+	font-size: 25px;
+
+
+	margin-left: 0px;
+	text-align: center;
+}
+    .userOtherDetailsArea {
+	margin-left: 0px;
+	text-align: center;
+}
+    .userOtherDetailsArea .userEmailText {
+ 
+    font-size: 17px;
+    line-height: 23px;
+   
+}
+
+.userOtherDetailsArea .contactText {
+
+    font-size: 17px;
+    line-height: 23px;
+
+}
+    
+}
+
+@media all and (max-width:577px) {
+    .customBg {
+	background: #fff;
+	padding: 13px 10px;
+}
+}
+
+@media all and (max-width:480px) {
+
+}
+
+@media all and (max-width:359px) {
+
+}

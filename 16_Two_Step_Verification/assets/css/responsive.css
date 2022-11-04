@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .main_body {
+        margin-right: 60px;
+    }
+    .verifyCodeArea {
+	
+	padding: 61px 90px;
+	border-radius: 5px;
+	width: 60%;
+	
+}
+}
+
+@media all and (max-width:1300px) {
+    label #bars {
+        left: 20px;
+        z-index: 9999999999999999999;
+        top: 10px;
+    }
+
+    label #close {
+        top: 10px;
+        left: 20px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .mainItem {
+        flex-basis: 48%;
+    }
+
+    .subWpper {
+        margin: 10px 15px;
+        padding: 30px 20px;
+        background: #fff;
+    }
+
+    .mainBodyHeadingPart {
+        margin-top: 80px;
+        padding: 0px 30px;
+    }
+        .verifyCodeArea {
+	
+	padding: 61px 40px;
+	border-radius: 5px;
+	width: 95%;
+            left: 2%;
+	
+}
+}
+
+@media all and (max-width:767px) {
+    .mainItem {
+        flex-basis: 100%;
+    }
+
+    .selectArea .selectBox {
+        width: 95%;
+    }
+}
+
+@media all and (max-width:577px) {
+    .flexBoxEleven {
+        display: unset;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .selectArea .selectBox {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .addFileMainArea {
+        padding: 38px 0px 32px;
+        display: unset;
+    }
+
+    .customButtonArea .customButton {
+        margin-bottom: 25px;
+    }
+}
+
+@media all and (max-width:480px) {}
+
+@media all and (max-width:400px) {
+    .customButtonArea {
+        flex-wrap: wrap;
+    }
+
+    .mainBodyHeadingPart .mainBodyHeadingText {
+        font-size: 22px;
+    }
+
+    .mainBodyHeadingPart .mainBodyHeadingContain {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:375px) {}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) {}
+
+@media only screen and (max-width: 360px) and (min-width: 360px) {}
+
+@media all and (max-width:359px) {}
+
+@media all and (max-width:350px) {}

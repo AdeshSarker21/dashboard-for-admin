@@ -1,0 +1,210 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .main_body {
+        margin-right: 60px;
+    }
+
+    .showLocationDetails .showLocationDetailsText {
+        font-size: 25px;
+        line-height: 26px;
+        color: #1C232E;
+    }
+}
+
+@media all and (max-width:1300px) {
+    label #bars {
+        left: 20px;
+        z-index: 9999999999999999999;
+        top: 10px;
+    }
+
+    label #close {
+        top: 10px;
+        left: 20px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .totalGarage {
+        text-align: center;
+        padding: 170px 0px;
+    }
+
+    .garageItem {
+        flex-basis: 100%;
+        margin-bottom: 21px;
+    }
+
+    .mapShowArea .selectMap {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .mapShowArea .nullDetails {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .mapShowArea .currentLocation {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .mapShowArea .currentAddress {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .mapShowArea {
+        margin-top: 70px;
+    }
+
+    .mapArea .map iframe {
+        height: 540px;
+    }
+
+    .showLocationDetails .showLocationDetailsText {
+        font-size: 20px;
+        line-height: 26px;
+        color: #1C232E;
+    }
+}
+
+@media all and (max-width:767px) {
+    .totalGarage {
+        text-align: center;
+        padding: 130px 0px;
+    }
+
+    .mapArea .map iframe {
+        height: 440px;
+    }
+
+    .saveButtonArea .customBtn {
+        padding: 12px 72px;
+        margin: 0px 10px;
+    }
+
+    .showLocationDetails .showLocationDetailsText {
+        font-size: 18px;
+        line-height: 26px;
+        color: #1C232E;
+    }
+}
+
+@media all and (max-width:577px) {
+    .totalGarage {
+        text-align: center;
+        padding: 100px 0px;
+    }
+
+    .wapperOne {
+        padding: 60px 20px 25px;
+        margin: 56px 0px;
+    }
+
+    .updateGarageName .mainName {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .nameInput {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .mapArea .map iframe {
+        height: 340px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .topHeader .topHeaderList {
+        margin-left: 14px;
+    }
+
+    label #bars {
+        top: 9px;
+    }
+
+    label #close {
+        top: 9px;
+    }
+
+    .totalGarage .totalGarageText {
+        font-size: 25px;
+    }
+
+    .totalGarage .viewAllGaragesButton {
+        font-size: 15px;
+        padding: 15px 25px;
+    }
+
+    .saveButtonArea .customBtn {
+        padding: 12px 40px;
+    }
+
+    .notic .noticeText {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .topHeader .topHeaderList .userButton .userName {
+        display: none;
+    }
+
+    .topHeader .topHeaderList {
+        margin-left: 8px;
+    }
+
+    .toplogo .responsiveLogo {
+        display: block !important;
+        height: 38px;
+        width: 38px;
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+
+    .topHeader .topHeaderList .userButton {
+        margin-left: 0px;
+    }
+
+    .topHeader .topHeaderList .userButton .topHeaderUser {
+        margin-right: 4px;
+    }
+
+    .updateGarageName .mainName {
+        font-size: 18px;
+        line-height: 38px;
+    }
+
+    .nameInput {
+        font-size: 18px;
+        line-height: 34px;
+        width: 100px;
+    }
+
+    .notic .noticeText {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media all and (max-width:375px) {
+    .saveButtonArea .customBtn {
+        padding: 12px 30px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) {}
+
+@media only screen and (max-width: 360px) and (min-width: 360px) {}
+
+@media all and (max-width:359px) {}
+
+@media all and (max-width:350px) {
+    .saveButtonArea .customBtn {
+        padding: 12px 20px;
+    }
+}

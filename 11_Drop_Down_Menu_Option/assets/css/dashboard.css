@@ -1,0 +1,262 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*======================Start Account Area======================*/
+.main_body {
+    background: #f7f4f4;
+    padding: 0px 67px;
+}
+
+/*======================Start My clients observe Area======================*/
+.myClientsObserveAreaStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 32px 0px 23px;
+}
+
+.clientSearchArea {
+    flex-basis: 70%;
+}
+
+.clientSearchForm {}
+
+.clientSearchFormGroup {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.clientSearchFormGroup .clientSearchFormLabel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    margin-right: 21px;
+}
+
+.clientSearchFormGroup .clientSearchFormInput {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #BDBCBC;
+    padding: 13px 51px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 80%;
+}
+
+.clientSearchFormGroup .clientSearchFormSearchIcon {
+    position: absolute;
+    top: 32%;
+    left: 19%;
+}
+
+/*======================End My clients observe Area======================*/
+/*======================Start Print and download Area======================*/
+.printAndDownloadArea {
+    flex-basis: 30%;
+    padding-left: 20px;
+}
+
+.printAndDownoladUl {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.printAndDownoladUl .printAndDownoladList {
+    margin-right: 23px;
+}
+
+.printAndDownoladUl .printAndDownoladList .printAndDownoladLink {}
+
+/*======================End Print and download Area======================*/
+/*======================Start Data Table Area======================*/
+.maniDataTableArea {}
+
+.mainDataTable {}
+
+.table {}
+
+.table .dataTableHead {}
+
+.table .dataTableHead .dataTableHeadRow {
+    background: #fff;
+    border: none;
+    border-bottom: 3px solid #fff;
+}
+
+.table .dataTableHead .dataTableHeadRow .dataTableHeadCol {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    text-align: center;
+    padding: 16px 0px 18px;
+}
+
+.table .dataTableBody {}
+
+.table .dataTableBody .dataTableBodyRow {
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+    padding: 20px 0px 24px;
+    border: none;
+}
+
+.table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+    text-align: center;
+}
+
+.table .dataTableBody .dataTableBodyRow .dataTableBodyCol .viewDetails {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #49C0FF;
+    padding: 5px 11px;
+    border: 1px solid #49C0FF;
+    border-radius: 6px;
+}
+
+.paginationBare {
+    text-align: right;
+    margin-bottom: 60px;
+}
+
+.paginationBarUl {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.paginationBarUl .paginatonBarList {
+    margin-right: 20px;
+}
+
+.paginationBarUl .paginatonBarList .paginatonBarLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #797979;
+    padding: 6px 13px;
+}
+
+.pActive {
+    background: #49C0FF;
+    border-radius: 2px;
+    padding: 9px 10px;
+    color: #fff !important;
+}
+
+.flexBoxTen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.next {}
+
+.rightArrow {}
+
+.userRoles {}
+
+.userRoles .clientSearchFormLabel {}
+
+.userRoles .clientSearchFormInput {
+    width: 70%;
+}
+
+.userRoles .clientSearchFormSearchIcon {
+    left: 24%;
+}
+
+/*----------------------Media Query--------------------------*/
+@media all and (max-width:991px) {
+    .paginationBarUl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    .maniDataTableArea {
+        padding: 0px 10px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .paginationBarUl .paginatonBarList {
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width:359px) {
+    .paginationBarUl .paginatonBarList .paginatonBarLink {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+/*======================End Data Table Area======================*/

@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .findYourDestinationAreaStart {
+        width: 90%;
+    }
+}
+
+@media all and (max-width:991px) {
+    .findYourDestinationAreaStart {
+        width: 98%;
+    }
+
+    .clientSearchFormGroup .clientSearchFormSearchIcon {
+        display: none;
+    }
+}
+
+@media all and (max-width:767px) {
+    .destinationSearchAreaStart .destinationSearchForm {
+        padding: 38px 0px;
+        margin-bottom: 40px;
+    }
+
+    .destinationSlogan .destinationSloganText {
+        font-size: 18px;
+    }
+
+    .disNone {
+        display: none;
+    }
+
+    .clientSearchFormGroup .clientSearchFormSearchIcon {
+        position: absolute;
+        top: 32%;
+        left: 115px;
+    }
+
+    .dashboardElements {
+        flex-direction: column;
+    }
+
+    .table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .main_body {
+        padding: 0px 10px;
+    }
+
+    .userRoles .clientSearchFormInput {
+        width: 100%;
+    }
+
+    .clientSearchFormGroup .clientSearchFormLabel {
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .formGroup {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .selectArea {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .searchArea {
+        flex-basis: 100%;
+    }
+
+    .clientSearchFormGroup {
+        flex-direction: column;
+    }
+
+    .clientSearchFormGroup .clientSearchFormSearchIcon {
+        display: none;
+    }
+
+    .myClientsObserveAreaStart {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 32px 0px 23px;
+        flex-direction: column;
+    }
+
+    .clientSearchFormGroup .clientSearchFormInput {
+        padding: 13px 20px;
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    .clientSearchArea {
+        flex-basis: 100%;
+    }
+
+    .printAndDownloadArea {
+        flex-basis: 100%;
+        padding-left: 0px;
+    }
+
+    .main_body {
+        padding: 0px 10px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .findDestinationAreaHeading .findDestinationAreaHeadingText {
+        font-size: 28px;
+    }
+
+    .destinationSlogan .destinationSloganText {
+        font-size: 16px;
+    }
+
+    .table .dataTableHead .dataTableHeadRow .dataTableHeadCol {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .dashboardTitle p {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .findDestinationAreaHeading .findDestinationAreaHeadingText {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width:359px) {
+    .findDestinationAreaHeading .findDestinationAreaHeadingText {
+        font-size: 20px;
+    }
+}

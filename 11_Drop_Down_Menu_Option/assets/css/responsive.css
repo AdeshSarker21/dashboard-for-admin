@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .findYourDestinationAreaStart {
+        width: 90%;
+    }
+}
+
+@media all and (max-width:991px) {
+    .findYourDestinationAreaStart {
+        width: 98%;
+    }
+}
+
+@media all and (max-width:767px) {
+    .destinationSearchAreaStart .destinationSearchForm {
+        padding: 38px 0px;
+        margin-bottom: 40px;
+    }
+
+    .destinationSlogan .destinationSloganText {
+        font-size: 18px;
+    }
+
+    .disNone {
+        display: none;
+    }
+}
+
+@media all and (max-width:577px) {
+    .formGroup {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .selectArea {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .searchArea {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (max-width:480px) {
+    .findDestinationAreaHeading .findDestinationAreaHeadingText {
+        font-size: 28px;
+    }
+
+    .destinationSlogan .destinationSloganText {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .findDestinationAreaHeading .findDestinationAreaHeadingText {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width:359px) {
+    .findDestinationAreaHeading .findDestinationAreaHeadingText {
+        font-size: 20px;
+    }
+}

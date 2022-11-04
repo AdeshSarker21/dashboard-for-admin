@@ -1,0 +1,455 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*======================Start Main Body Heading Part======================*/
+.mainBodyHeadingPart {
+	margin-top: 80px;
+	padding: 0px 67px;
+}
+
+.mainBodyHeadingPart .mainBodyHeadingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #444444;
+}
+
+.mainBodyHeadingPart .mainBodyHeadingContain {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    margin-bottom: 30px;
+}
+
+/*======================End Main Body Heading Part======================*/
+/*======================Start User Profile Area======================*/
+/*======================Start Search Keyword Area======================*/
+.searchKeywordsArea {
+    margin-bottom: 25px;
+    padding: 0px 67px;
+}
+
+.searchKeywordForm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexBoxSix {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 62%;
+}
+
+.garegesHeadingArea {
+    flex-basis: 20%;
+}
+
+.garegesHeadingArea .garegesHeadingAreaText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    display: inline-block;
+}
+
+.searchKeywordForm .searchKeyword {
+    position: relative;
+    flex-basis: 80% !important;
+    margin-left: 25px;
+}
+
+.searchKeywordForm .searchKeyword .searchKeywordInput {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757F8C;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 14px 20px 9px 44px;
+    width: 100% !important;
+}
+
+.searchKeywordForm .searchKeyword .searchKeywordIcon {
+    position: absolute;
+    top: 35%;
+    left: 1%;
+}
+
+.searchKeywordForm .searchKeyword .searchKeywordInput .searchKeywordLabel {}
+
+@media all and (max-width:991px) {
+    .flexBoxSix {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    .searchKeywordForm .searchKeyword {
+	position: relative;
+	flex-basis: 100% !important;
+	margin-left: 0px;
+}
+}
+
+/*======================End Search Keyword Area======================*/
+/*======================Start Data Table Area======================*/
+.maniDataTableArea {
+    padding: 0px 67px;
+}
+
+.mainDataTable {
+    background: #fff;
+}
+
+.table {}
+
+.table .dataTableHead {}
+
+.table .dataTableHead .dataTableHeadRow {
+    background: #fff;
+    border: none;
+    border-bottom: 3px solid #fff;
+}
+
+.table .dataTableHead .dataTableHeadRow .dataTableHeadCol {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    text-align: center;
+    padding: 16px 0px 18px;
+}
+
+.table .dataTableBody {}
+
+.table .dataTableBody .dataTableBodyRow {
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+    padding: 20px 0px 24px;
+    border: none;
+}
+
+.table .dataTableBody .dataTableBodyRow .flexBoxFive {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+}
+
+.table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+    text-align: center;
+}
+
+.dataTableBodyCol {}
+
+.dataTableBodyColUl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataTableBodyColUl .dataTableBodyColList {
+    margin: 0px 5px;
+}
+
+.dataTableBodyColUl .dataTableBodyColList .rejectBtn {
+    border: none;
+    background: none;
+    padding: 5px 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FF6249;
+    border: 1px solid #FF6249;
+    border-radius: 6px;
+}
+
+.dataTableBodyColUl .dataTableBodyColList .approveBtn {
+    border: none;
+    background: none;
+    padding: 5px 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #00BC39;
+    border: 1px solid #00BC39;
+    border-radius: 6px;
+}
+
+.dataTableBodyColUl .dataTableBodyColList .dataTableBodyColIcon {}
+
+/*======================End Data Table Area======================*/
+.paginationBare {
+    text-align: right;
+    padding-bottom: 60px;
+}
+
+.paginationBarUl {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.paginationBarUl .paginatonBarList {
+    margin-right: 20px;
+}
+
+.paginationBarUl .paginatonBarList .paginatonBarLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #797979;
+    padding: 6px 13px;
+}
+
+.pActive {
+    background: #49C0FF;
+    border-radius: 2px;
+    padding: 9px 10px;
+    color: #fff !important;
+}
+
+.flexBoxTen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.next {}
+
+.rightArrow {}
+
+.userRoles {}
+
+.userRoles .clientSearchFormLabel {}
+
+.userRoles .clientSearchFormInput {
+    width: 70%;
+}
+
+.userRoles .clientSearchFormSearchIcon {
+    left: 24%;
+}
+
+@media all and (max-width:991px) {
+    .paginationBarUl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    .maniDataTableArea {
+        padding: 0px 10px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .paginationBarUl .paginatonBarList {
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width:359px) {
+    .paginationBarUl .paginatonBarList .paginatonBarLink {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+
+
+
+
+/*======================Start Add Pirce Area======================*/
+.customPossiton {
+    position: relative;
+}
+
+.effect {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: 99;
+    opacity: 0.4;
+}
+
+.addGaragePriceArea {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    padding: 61px 111px;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    background: #fff;
+    z-index: 999999;
+    padding-bottom: 120px;
+}
+
+.addGrageHeading {
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.addGrageHeading .addGrageHeadingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addGarageFormGroup {
+    flex-basis: 48%;
+    margin-bottom: 37px;
+}
+
+.addGarageFormGroup .addGarageSelectBox {
+    background: none;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 5px;
+    padding: 9px 25px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("../images/icon/downArrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+}
+
+.addGarageFormGroup .addGarageSelectBox .addGarageOption {}
+
+.addGarageFormGroup .addGarageInput {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    padding: 9px 25px;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.clockPossition {
+    position: relative;
+}
+
+.clock {
+    position: absolute;
+    top: 27%;
+    right: 5%;
+}
+
+.submitArea {}
+
+.submitArea .submitButton {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 100%;
+    background: #49C0FF;
+    border-radius: 6px;
+    padding: 14px 10px;
+    text-align: center;
+}
+
+/*======================End Add Pirce Area======================*/

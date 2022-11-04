@@ -1,0 +1,575 @@
+/* details dashboard bar graph start  */
+.mainGraphDashboard {
+    margin: 20px 10px;
+    background: white;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.graphOptionItem {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.graphOptionItem select {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 15px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+}
+
+.graphOptionItem select:hover {
+    background: #e7e4e4;
+}
+
+.setGraph {
+    display: flex;
+}
+
+/* details dashboard bar graph end  */
+/*  dashboard Elements item start here */
+.mainDashboard {
+    padding-top: 100px;
+}
+
+.dashboardTitle h2 {
+    color: #444444;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.dashboardTitle p {
+    color: #444444;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.dashboardElements {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: space-around;
+    overflow-x: auto;
+    min-width: 205px;
+}
+
+.dashboardELementsItem {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #f0eaea;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    padding: 10px 20px;
+    border-radius: 6px;
+    gap: 15px;
+    min-width: 220px;
+    margin-bottom: 10px;
+}
+
+.elementItemText span {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.elementItemText h3 {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.dashboardELementsItem img {
+    background: linear-gradient(270.67deg, #2cabef 0.49%, #0094ff 99.38%);
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    padding: 12px 5px;
+}
+
+/*  dashboard Elements item start here */
+/* line graph start here  */
+.mainLineChart {
+    background: white;
+    padding-top: 40px;
+    margin: 10px;
+}
+
+.realTime {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #404040;
+}
+
+/* scrollbar edit for sidebar start */
+.dashboardElements::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(216, 210, 210);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* scrollbar edit for sidebar end  */
+/* line graph toogle  */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 3.5px;
+    bottom: 0;
+    background-color: rgb(228, 216, 216);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(242, 246, 248);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #2196f3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* line graph main ends here  */
+/* last week line chart start here  */
+.grahAndStatsSectionStart {}
+
+.grahAndStatsHeading {
+    padding: 48px 0px 23px;
+}
+
+.grahAndStatsHeading .grahAndStatsHeadingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+}
+
+.lastWeekAndAnswerTicket {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commonClassForLastWeek {
+    width: 48%;
+    margin: 10px;
+}
+
+.answerTickets {
+    background: white;
+    padding: 10px;
+}
+
+.lastWeekChart {
+    background: white;
+    padding: 10px;
+}
+
+.commonClassForLastWeek {}
+
+.commonClassForLastWeek .perHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    padding-bottom: 24px;
+}
+
+.commonClassForLastWeek .selectBox {
+    background: none;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 5px;
+    padding: 9px 25px;
+    width: 70%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("../images/icon/downArrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    margin-bottom: 24px;
+}
+
+.commonClassForLastWeek .selectBox .selectOptions {}
+
+/* last week line chart end here  */
+/* manager and garage chart start here  */
+.managersAndGaraegs {
+    display: flex;
+}
+
+.commonClassForManagerAndGarages {
+    width: 50%;
+    margin: 10px;
+}
+
+.managers {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.managerTitle {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.managerTitle img {
+    background: #e4f6ff;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-right: 15px;
+}
+
+.managerTitle i {
+    background: #e4f6ff;
+    padding: 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-right: 15px;
+    color: #49c0ff;
+}
+
+.managerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-bottom: 24px;
+}
+
+.managerInfo p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #797979;
+    font-size: 15px;
+}
+
+.managerInfoUser {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.managerInfoUser img {
+    width: 72px;
+    height: 62px;
+}
+
+.managerInfoUser div h5 {
+    font-weight: 500;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.managerInfoUser div span {
+    color: #797979;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* garages start  */
+.garages {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.wrapAllPercentageChart {
+    position: relative;
+}
+
+.lightskyPercentage,
+.redPercentage,
+.bluePercentage {
+    background: white !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 68%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.redPercentage {
+    right: 65%;
+    margin-top: 25px;
+}
+
+.bluePercentage {
+    right: 15%;
+    margin-top: 110px;
+}
+
+/* manager and garage end here  */
+/* times and permit start here  */
+.timesAndPermit {
+    display: flex;
+}
+
+.commonClassFormTimeAndPermit {
+    width: 50%;
+    margin: 10px;
+}
+
+.times,
+.permit {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.times .table tr {
+    border: transparent;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #000000;
+}
+
+.times .table tr td {
+    color: #797979;
+}
+
+.times .table tr td strong {
+    color: #444444;
+}
+
+.permit .table tr {
+    border: transparent;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    font-size: 16px;
+}
+
+.permit .table tr td {
+    color: #797979;
+}
+
+.permit .table tr td strong {
+    color: #444444;
+}
+
+/* times and permit ends here  */
+/* graph responsiveness here start */
+@media screen and (max-width: 1300px) {
+    .lightskyPercentage {
+        right: 65%;
+    }
+
+    .bluePercentage {
+        right: 18%;
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .lastWeekAndAnswerTicket {
+        flex-direction: column;
+    }
+
+    .commonClassForLastWeek {
+        width: 97% !important;
+    }
+
+    .managersAndGaraegs {
+        flex-direction: column;
+    }
+
+    .commonClassForManagerAndGarages {
+        width: 97%;
+    }
+
+    .timesAndPermit {
+        flex-direction: column;
+    }
+
+    .commonClassFormTimeAndPermit {
+        width: 97% !important;
+    }
+
+    .lightskyPercentage {
+        right: 58%;
+    }
+
+    .redPercentage {
+        right: 58%;
+        margin-top: 13px;
+    }
+
+    .bluePercentage {
+        right: 32%;
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .lightskyPercentage {
+        right: 60%;
+    }
+
+    .bluePercentage {
+        right: 28%;
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .lightskyPercentage {
+        right: 62%;
+    }
+
+    .redPercentage {
+        right: 60%;
+        margin-top: 20px;
+    }
+
+    .bluePercentage {
+        right: 24%;
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .graphOptionItem {
+        display: block;
+        margin-top: 10px !important;
+        text-align: right;
+    }
+
+    .graphOptionItem select {
+        margin: 5px 0;
+        width: 130px;
+    }
+
+    .lightskyPercentage {
+        right: 72%;
+        margin-top: 180px;
+    }
+
+    .bluePercentage {
+        right: 18%;
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bluePercentage {
+        right: 12%;
+        margin-top: 110px;
+    }
+
+    .redPercentage {
+        right: 65%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .redPercentage {
+        right: 73%;
+        margin-top: 45px;
+    }
+
+    .bluePercentage {
+        right: 8%;
+        margin-top: 110px;
+    }
+}
+
+/* graph responsiveness here end */

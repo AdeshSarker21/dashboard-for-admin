@@ -1,0 +1,288 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*======================Start Main Body Heading Part======================*/
+.mainBodyHeadingPart {
+    margin-top: 80px;
+    padding: 0px 67px;
+}
+
+.mainBodyHeadingPart .mainBodyHeadingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #444444;
+}
+
+.mainBodyHeadingPart .mainBodyHeadingContain {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    margin-bottom: 30px;
+}
+
+/*======================End Main Body Heading Part======================*/
+/*======================Start User Profile Area======================*/
+/*======================Start Search Keyword Area======================*/
+.searchKeywordsArea {
+    margin-bottom: 25px;
+    padding: 0px 67px;
+}
+
+.searchKeywordForm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexBoxSix {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 62%;
+}
+
+.garegesHeadingArea {
+    flex-basis: 20%;
+}
+
+.garegesHeadingArea .garegesHeadingAreaText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    display: inline-block;
+}
+
+.searchKeywordForm .searchKeyword {
+    position: relative;
+    flex-basis: 80% !important;
+    margin-left: 25px;
+}
+
+.searchKeywordForm .searchKeyword .searchKeywordInput {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757F8C;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 14px 20px 9px 44px;
+    width: 100% !important;
+}
+
+.searchKeywordForm .searchKeyword .searchKeywordIcon {
+    position: absolute;
+    top: 35%;
+    left: 1%;
+}
+
+.searchKeywordForm .searchKeyword .searchKeywordInput .searchKeywordLabel {}
+
+@media all and (max-width:991px) {
+    .flexBoxSix {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+
+    .searchKeywordForm .searchKeyword {
+        position: relative;
+        flex-basis: 100% !important;
+        margin-left: 0px;
+    }
+}
+
+/*======================End Search Keyword Area======================*/
+/*======================Start Select Area======================*/
+.subWpper {
+    margin: 10px 67px;
+    padding: 30px 47px;
+    background: #fff;
+}
+
+.garageAndFloorSelectArea {}
+
+.flexBoxEleven {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.garageArea {
+    flex-basis: 50%;
+}
+
+.selectArea {}
+
+.selectArea .selectHading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.selectArea .selectBox {
+    background: none;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 5px;
+    padding: 9px 25px;
+    width: 70%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("../images/icon/downArrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+}
+
+.selectArea .selectBox .selectBoxOption {
+    background: none;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 5px;
+    padding: 9px 25px;
+}
+
+.floorArea {
+    flex-basis: 50%;
+}
+
+.addFileMainArea {
+    padding: 38px 0px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addedMapArea {}
+
+.customButtonArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.customButtonArea .customButton {
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.customButtonArea .customButton .customIcon {
+    margin-right: 13px;
+}
+
+.customButtonArea .customButton .buttonText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #404040;
+}
+
+.customMargin {
+    margin-right: 30px;
+}
+
+/*======================End Select Area======================*/
+.fullMapAndFloorArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainItem {
+    flex-basis: 31%;
+    background: #49C0FF;
+    border: 0.2px solid #797979;
+    border-radius: 6px;
+    margin-bottom: 2%;
+}
+
+.mainItem .itemText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30.1025px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 102px 0px;
+}

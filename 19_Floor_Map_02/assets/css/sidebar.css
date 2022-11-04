@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*=============================Sidebar Start=============================*/
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    width: 222px;
+    transition-duration: 0.5s;
+    z-index: 43;
+    left: 0px;
+    top: 0px;
+    font-weight: bold;
+    bottom: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar:hover {
+    overflow-y: auto;
+}
+
+.sidebarLogoArea {
+    z-index: 5;
+    width: 232px;
+    margin-left: -10px !important;
+}
+
+.sidebarLogoArea {
+    position: fixed;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.sidebarLogoArea img {
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#check {
+    display: none;
+}
+
+#bars {
+    display: none;
+}
+
+label #bars,
+label #close {
+    position: absolute;
+    padding: 15px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    color: #49C0FF !important;
+}
+
+label #bars {
+    left: 170px;
+    top: 80px;
+    position: fixed;
+    background: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 26px;
+    z-index: 98;
+    padding: 10px;
+    z-index: 44;
+}
+
+label #close {
+    top: 18px;
+    z-index: 10;
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    /* left:190px; */
+    left: 180px;
+    font-size: 22px;
+}
+
+#check:checked ~ .sidebar {
+    left: -240px;
+}
+
+#check:checked ~ label #bars {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menu_bar:focus .main_body {
+    margin-left: -240px !important;
+}
+
+#check:checked ~ label #close {
+    position: fixed;
+    z-index: 105000;
+    opacity: 1;
+}
+
+.collapse-item-sidebar li {
+    margin-left: -18px;
+}
+
+.userImageArea {
+    text-align: center;
+}
+
+.userImageArea .userImage {
+    text-align: center;
+}
+
+.userName {
+    text-align: center;
+}
+
+.sidebar_ul {
+    margin-top: 250px;
+    padding: 18px;
+    padding-left: 0;
+}
+
+.listItem {}
+
+.searchForm {}
+
+.formGropu {
+    position: relative;
+}
+
+.formGropu .searchInput {
+    border: none;
+    background: none;
+    background: #EDEDED;
+    border-radius: 4343px;
+    padding: 8px 13px;
+    width: 100%;
+}
+
+.formGropu .searchIcon {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.listItem {
+    margin-top: 20px;
+    border-left: 5px solid transparent;
+}
+
+.listItem .navLink {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 18px;
+}
+
+.listItem .navLink .navIcon {}
+
+.listItem .navLink .navName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    margin-left: 10px;
+    padding: 10px 0px;
+}
+
+.hoverIcon {
+    display: none;
+}
+
+.sidebar_ul .listItem .navLink:hover {
+    background: linear-gradient(90deg, rgba(73, 192, 255, 0.2) 0%, rgba(73, 192, 255, 0.026) 100%);
+    color: #45B0E8;
+}
+
+.sidebar_ul .listItem .navLink:hover .navName {
+    color: #45B0E8;
+}
+
+.sidebar_ul .listItem .navLink:hover .mainIcon {
+    display: none;
+}
+
+.sidebar_ul .listItem .navLink:hover .hoverIcon {
+    display: block;
+}
+
+.sidebar_ul .listItem:hover {
+    border-left: 5px solid #49C0FF;
+}
+
+/*=============================Sidebar End=============================*/
+/*==========================Side Bar Responsive==================================*/
+@media screen and (max-width: 1300px) {
+    #bars {
+        display: block;
+    }
+
+    .sidebar {
+        left: -250px;
+    }
+
+    label #bars {
+        left: 10px;
+        top: 20px;
+    }
+
+    #check:checked ~ .sidebar {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .msg_noti_user {
+        display: none;
+    }
+
+    .sidebar {
+        overflow: auto;
+    }
+
+    .sidebar:hover {
+        overflow-y: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    label #close {
+        left: 20px !important;
+    }
+
+    label #bars {
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    label #bars {
+        left: 10px;
+        font-size: 16px;
+        top: 10px;
+    }
+}
+
+.main_body {
+	margin-left: 221px;
+	margin-right: 0;
+	margin-top: -25px;
+}
+
+@media screen and (max-width:1300px) {
+    .main_body {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    label #bars {
+        top: 20px;
+    }
+
+    .main_body {
+        margin-top: 50px;
+    }
+}

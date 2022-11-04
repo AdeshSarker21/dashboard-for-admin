@@ -1,0 +1,263 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*======================Start Top Header Area======================*/
+.mainTopHeader {
+    position: relative;
+    z-index: 1;
+    padding: 8px 25px;
+}
+
+.topBarLogoArea {}
+
+.toplogo {}
+
+.toplogo .pcLogo {}
+
+.toplogo .responsiveLogo {
+    display: none;
+}
+
+.startTopHeaderArea {}
+
+.topHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.topHeader .topHeaderList {
+    margin-left: 26px;
+}
+
+.topHeader .topHeaderList .topHeaderIcon {
+    cursor: pointer;
+}
+
+.topHeader .topHeaderList .userButton {
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.topHeader .topHeaderList .userButton .topHeaderUser {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+
+.topHeader .topHeaderList .userButton .userName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    padding-left: 14px;
+    padding-right: 10px;
+}
+
+.topHeader .topHeaderList .userButton .topHeaderArrowIocn {}
+
+/*======================End Top Header Area======================*/
+/*======================Start Main Body Heading Part======================*/
+.mainBodyHeadingPart {
+    margin-top: 70px;
+    padding: 0px 67px;
+}
+
+.mainBodyHeadingPart .mainBodyHeadingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #444444;
+}
+
+.mainBodyHeadingPart .mainBodyHeadingContain {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    margin-bottom: 30px;
+}
+
+/*======================End Main Body Heading Part======================*/
+/*======================Start User Profile Area======================*/
+/*======================Start Search Keyword Area======================*/
+.searchKeywordsArea {
+    margin-bottom: 25px;
+    padding: 0px 67px;
+}
+
+.searchKeywordForm {}
+
+.searchKeyword {
+    flex-basis: 60%;
+}
+
+.searchKeywordForm .searchKeyword {
+    position: relative;
+}
+
+.searchKeywordForm .searchKeyword .searchKeywordInput {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757F8C;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 14px 20px 9px 44px;
+    width: 100%;
+}
+
+.searchKeywordForm .searchKeyword .searchKeywordIcon {
+    position: absolute;
+    top: 35%;
+    left: 1%;
+}
+
+.flexBoxSix {
+    text-align: right;
+}
+
+.addManagerArea {
+    flex-basis: 40%;
+    text-align: right;
+}
+
+.addManagerArea .addManagerAreaButton {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    background: #49C0FF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 8px 21px;
+}
+
+.addManagerArea .addManagerAreaButton .addManagerAreaPlus {
+    margin-right: 21px;
+}
+
+/*======================End Search Keyword Area======================*/
+/*======================Start Data Table Area======================*/
+.maniDataTableArea {
+    margin: 0px 67px;
+    background: #fff;
+    padding: 42px 52px;
+}
+
+.mainDataTable {}
+
+.table {}
+
+.table .dataTableHead {}
+
+.table .dataTableHead .dataTableHeadRow {
+    background: #fff;
+    border: none;
+    border-bottom: 3px solid #fff;
+}
+
+.table .dataTableHead .dataTableHeadRow .dataTableHeadCol {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    padding: 16px 0px 18px;
+}
+
+.table .dataTableBody {}
+
+.table .dataTableBody .dataTableBodyRow {
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+    padding: 20px 0px 24px;
+    border: none;
+}
+
+.table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+}
+
+.dataTableBodyCol {}
+
+.dataTableBodyColUl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataTableBodyColUl .dataTableBodyColList {
+    margin: 0px 5px;
+}
+
+.dataTableBodyColUl .dataTableBodyColList .dataTableBodyColIcon {}
+
+/*======================End Data Table Area======================*/

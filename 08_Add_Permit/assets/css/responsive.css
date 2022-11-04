@@ -1,0 +1,129 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .main_body {
+        margin-right: 60px;
+    }
+}
+
+@media all and (max-width:1300px) {
+    label #bars {
+        left: 20px;
+        z-index: 9999999999999999999;
+        top: 10px;
+    }
+
+    label #close {
+        top: 10px;
+        left: 20px;
+    }
+
+    @media all and (max-width:991px) {
+        .UpdateProfileFormGroup .updateProfileLabel {
+            font-size: 18px;
+        }
+    }
+
+    @media all and (max-width:767px) {
+        .UpdateProfileOptionItem {
+            width: 100%;
+        }
+
+        .UpdateProfileFormGroup {
+            flex-basis: 100%;
+        }
+
+        .flexBox {
+            display: flex;
+            justify-content: unset;
+            align-items: unset;
+            margin-bottom: 0px;
+            flex-direction: column;
+        }
+
+        .UpdateProfileFormGroup .updateProfileInput {
+            margin-bottom: 30px;
+        }
+
+        .UpdateProfileFormGroup .stateSelectArea {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media all and (max-width:577px) {
+        .uploadFile {
+            padding: 14px 13px;
+        }
+    }
+
+    @media all and (max-width:480px) {
+        .uploadPhotoOfLicencseArea {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+
+        .uploadFile {
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+
+        .topHeader .topHeaderList {
+            margin-left: 14px;
+        }
+
+        label #bars {
+            top: 9px;
+        }
+
+        label #close {
+            top: 9px;
+        }
+    }
+
+    @media all and (max-width:400px) {
+        .UpdateProfileFormGroup .updateProfileLabel {
+            font-size: 16px;
+        }
+
+        .viewPermitbuttonArea .viewPermitButton {
+            font-size: 18px;
+        }
+
+        .topHeader .topHeaderList .userButton .userName {
+            display: none;
+        }
+
+        .topHeader .topHeaderList {
+            margin-left: 8px;
+        }
+
+        .toplogo .responsiveLogo {
+            display: block !important;
+            height: 38px;
+            width: 38px;
+            margin-top: 4px;
+            margin-left: 10px;
+        }
+
+        label #bars {
+            top: 13px !important;
+        }
+
+        .topHeader .topHeaderList .userButton {
+            margin-left: 0px;
+        }
+
+        .topHeader .topHeaderList .userButton .topHeaderUser {
+            margin-right: 4px;
+        }
+    }
+
+    @media all and (max-width:375px) {}
+
+    @media only screen and (max-width: 375px) and (min-width: 375px) {}
+
+    @media only screen and (max-width: 360px) and (min-width: 360px) {}
+
+    @media all and (max-width:359px) {}
+
+    @media all and (max-width:350px) {}

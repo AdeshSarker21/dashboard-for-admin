@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .mainUserProfileArea {
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width:991px) {}
+
+@media all and (max-width:767px) {
+    .mainUserProfileArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .userProfileDetailsArea {
+        flex-basis: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .userProfileImageArea {
+        flex-basis: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .flexBoxThree {
+        display: flex;
+        justify-content: unset;
+        align-items: unset;
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+
+    .userInfoformGroup {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+
+    .userAllInoformationArea {
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width:577px) {}
+
+@media all and (max-width:480px) {
+    .userNameArea .userNameText {
+        font-size: 20px;
+        line-height: 48px;
+    }
+
+    .approveArea .approveText {
+        font-size: 16px;
+        line-height: 48px;
+    }
+
+    .userOtherDetailsArea .userEmailText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .userOtherDetailsArea .sinceMemberText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .userOtherDetailsArea .sinceMemberTex .mounthText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .approveArea .approveText .circle {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        background: #00BC39;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width:359px) {
+    .approveArea {
+        margin-left: 8px;
+    }
+}

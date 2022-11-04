@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {}
+
+@media all and (max-width:1300px) {
+    label #bars {
+        left: 20px;
+        z-index: 9999999999999999999;
+        top: 10px;
+    }
+
+    label #close {
+        top: 10px;
+        left: 20px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .table .dataTableHead .dataTableHeadRow .dataTableHeadCol {
+        font-size: 16px;
+    }
+
+    .table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+        font-size: 15px;
+    }
+
+    .table {
+        width: 700px !important;
+        margin-bottom: 1rem;
+        color: #212529;
+        vertical-align: top;
+    }
+
+    .selectButtonWithSearchArea {
+        display: flex;
+        justify-content: unset;
+        align-items: unset;
+        padding: 38px 0px;
+        flex-direction: column;
+    }
+
+    .selectButtonArea .selectButton .selectButtonList {
+        padding: 17px 15%;
+    }
+
+    .searchArea {
+        flex-basis: 100%;
+        padding-left: 0;
+        margin-top: 25px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .selectButtonArea .selectButton .selectButtonList {
+        padding: 17px 12%;
+    }
+
+    .arrowArea {
+        position: absolute;
+        top: 0%;
+        left: -5%;
+    }
+}
+
+@media all and (max-width:577px) {
+    .table {
+        width: 772px !important;
+        margin-bottom: 1rem;
+        color: #212529;
+        vertical-align: top;
+    }
+
+    .selectButtonArea .selectButton .selectButtonList {
+        padding: 17px 11%;
+    }
+
+    .accountHeading .accountHeadingText {
+        font-size: 22px;
+        line-height: 42px;
+    }
+
+    .accountHeading .accountHeadingSlogan {
+        font-size: 16px;
+    }
+
+    .arrowArea {
+        position: absolute;
+        top: -39%;
+        left: 0%;
+    }
+}
+
+@media all and (max-width:480px) {
+    .topHeader .topHeaderList {
+        margin-left: 14px;
+    }
+
+    label #bars {
+        top: 9px;
+    }
+
+    label #close {
+        top: 9px;
+    }
+
+    .selectButtonArea .selectButton {
+        display: flex;
+        justify-content: unset;
+        align-items: unsafe;
+        background: unset;
+        flex-basis: content;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .selectButtonArea .selectButton .selectButtonList {
+        padding: 17px 11%;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:400px) {}
+
+@media all and (max-width:375px) {}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) {}
+
+@media only screen and (max-width: 360px) and (min-width: 360px) {}
+
+@media all and (max-width:359px) {}
+
+@media all and (max-width:350px) {}
